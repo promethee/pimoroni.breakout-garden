@@ -13,7 +13,7 @@ try:
     bus = smbus2.SMBus(I2C_BUS)
     bus.close()
     print('')
-    print("Seeems like smbus access didn't raised any error...")
+    print("Seems like smbus access didn't raised any error...")
     print('')
     print('¯\_(ツ)_/¯ github.com/promethee ¯\_(ツ)_/¯')
 except IOError:
